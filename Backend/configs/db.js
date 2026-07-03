@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const mongoUri = process.env.MONGO_CONNECTION_STRING || 'mongodb://localhost:27017';
+const mongoUri = process.env.MONGODB_URL || 'mongodb://localhost:27017';
 const client = new MongoClient(mongoUri, {
   serverSelectionTimeoutMS: parseInt(process.env.MONGO_SERVER_SELECTION_TIMEOUT_MS, 10) || 5000
 });
