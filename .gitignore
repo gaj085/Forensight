@@ -52,3 +52,6 @@ yarn-error.log*
 Thumbs.db
 Desktop.ini
 .vscode/
+
+# Temporary uploads
+Backend/temp_uploads/
