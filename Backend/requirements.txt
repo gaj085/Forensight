@@ -1,0 +1,12 @@
+flask
+gunicorn
+pymongo
+python-dotenv
+pillow
+numpy==1.23.5
+cloudinary
+flask-cors
+
+deepface==0.0.79
+opencv-python-headless
+tensorflow==2.12.0
