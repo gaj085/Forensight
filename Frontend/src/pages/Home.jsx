@@ -92,8 +92,8 @@ export default function Home() {
            {/* DEVELOPER */}
 <div className={styles.cardBox}>
   <div className={styles.cardTitle2}>👨‍💻 Developer</div>
-  <p>Anshul Rajpoot</p>
-  <p>2311401168</p>
+  <p>Gajendra Verma</p>
+  <p>2311401211</p>
 </div>
             
             
